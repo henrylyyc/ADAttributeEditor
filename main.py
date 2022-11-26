@@ -26,10 +26,11 @@ while (True):
 
     changeableAtrributes = ["Manager", "Title"]
     
-    print("The attributes that you can change are: ", end = " ")
+    print(lineBreak)
+    print("The attributes that you can change are:", end = " ")
     
     for item in changeableAtrributes:
-        print(item, end = " ")
+        print(item, end = "; ")
     
     print()
     print(lineBreak)
