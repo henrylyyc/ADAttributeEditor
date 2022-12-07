@@ -115,6 +115,11 @@ while (True):
 
     continueRule = input("Would you like to create a new session? (y/n) ").lower()
 
+    goodInputs = ["y", "n"]
+
+    while continueRule not in goodInputs:
+        continueRule = input("ERROR: Unexpected input. Would you like to create a new session? (y/n) ").lower()
+
     if continueRule == 'y':
         continue
     else:
